@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/ALERTAS26/', // <--- ¡Añade esta línea aquí!
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
