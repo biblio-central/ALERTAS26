@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .font-serif-book {
+    font-family: 'Source Serif 4', Georgia, Cambria, 'Times New Roman', serif;
+  }
+}
+
+@media print {
+  header, .no-print, nav, .filter-sidebar {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+}
+

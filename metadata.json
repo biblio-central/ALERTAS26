@@ -1,0 +1,6 @@
+{
+  "name": "ALERTA DE LIBROS - UNTELS",
+  "description": "Sistema de Alerta Bibliográfica y Nuevas Adquisiciones de Libros ordenados desde el año más reciente con soporte para importar archivos Excel y búsqueda avanzada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
