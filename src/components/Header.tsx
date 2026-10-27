@@ -9,7 +9,7 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({ books }) => {
   const [imgError, setImgError] = useState(false);
   const logoUrl = 'https://posgrado.untels.edu.pe/assets/img/pagos/pago-caja.png';
-  const localLogo = '/assets/aistudio/untels_logo_dfb6cc09.jpeg';
+  const localLogo = `${import.meta.env.BASE_URL}assets/aistudio/untels_logo_dfb6cc09.jpeg`;
   const [currentSrc, setCurrentSrc] = useState(logoUrl);
 
   const totalBooks = books.length;
